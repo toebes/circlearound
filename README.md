@@ -29,25 +29,25 @@ This uses the following technologies:
    ```
    npm install @capacitor/core @capacitor/cli
    ```
-8.  [Initialize Capacitor](https://capacitorjs.com/docs/getting-started).  You only need to do this once.
+8. [Initialize Capacitor](https://capacitorjs.com/docs/getting-started).  You only need to do this once.
    ```
    npx cap init
    ```
-9.  Add the Platforms you want to build for.  Note that while you can do both on a Mac, you can only do Android on a windows platform.
+9. Add the Platforms you want to build for.  Note that while you can do both on a Mac, you can only do Android on a windows platform.
    ```
    npx cap add ios
    npx cap add android
    ```
 10. Build your project so that the web pages are in the `dist/` directory.
-   ```
-   npm run build
-   ```
+    ```
+    npm run build
+    ```
 11. If you want to test it locally, you can use serve:
-   ```
-   npm run serve
-   ```
-and then open up the link (typically `http://localhost:3000`) to see the application run.
-
+    ```
+    npm run serve
+    ```
+    and then open up the link (typically `http://localhost:3000`) to see the application run.
+    
 12. Synchronize the built code with the native project.  Basically it copies the compiled code into
 the target directories.  You have to do this each time after you build the code.
     ```
